@@ -1,0 +1,17 @@
+<h1>Products</h1>
+<% if @products.empty? %>
+  NO PRODUCTS
+<% else %>
+<table>
+  <th>Product name</th>
+  <th>Price</th>
+  <th>Category id</th>
+  <% @products.each do |product| %>
+    <tr>
+      <td><%= product.name %></td>
+      <td><%= product.price %></td>
+      <td><%= product.category_id %></td>
+    </tr>
+  <% end %>
+</table>
+<% end %>

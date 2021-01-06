@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+caregory_all:
+  name: AllProducts
+  right: 1
+  left: 10
+  level: 1
+
+caregory_left_1:
+  name: Healthy
+  right: 2
+  left: 3
+  level: 2
+
+caregory_right_1:
+  name: Tasty
+  right: 4
+  left: 9
+  level: 2
+caregory_right_1_1:
+  name: sweet
+  right: 5
+  left: 6
+  level: 3
+caregory_right_1_2:
+  name: salty
+  right: 7
+  left: 8
+  level: 3
