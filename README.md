@@ -4,32 +4,46 @@ Categories tree with products.
 The Category tree implemented with nested set model technique.
 Relation of one to many between category and product
 
-* Demo at Heroku
+# Demo at Heroku
 https://secure-stream-01212.herokuapp.com/products
 
-* Ruby version
+# Ruby version
 ruby '3.0.0'
+
 rails '6.1'
 
-* System dependencies
+# System dependencies
+
 postgres
 
-* Configuration
+# Configuration
+
 bundle install
 
-* Database creation
+# Database creation
+
 rake db:create
 
-* Database initialization
+# Database initialization
+
 rake db:seed
 
-* Complexity
-Time: 
+# Complexity
+
+## Time: 
+
     getCategoriesList: O(log(n))
+    
     fetchRelatedProducts: O(log(n))
+    
     Total: O(log(n)) + O(log(n)) = O(log(n))
-Space:
+    
+## Space:
+
     categoriesList: O(n) - table
+    
     categoryLeftIndex: O(n) - tree
+    
     productList: O(n) - table
+    
     Total: O(n) + O(n) + O(n) = O(n)
