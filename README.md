@@ -9,6 +9,14 @@ Relation of one to many between category and product.
 # Demo at Heroku
 https://secure-stream-01212.herokuapp.com/products
 
+Optional params: 
+
+1. by_category_id[Number]: category id for filter.
+
+2. sort[asc/desc]: sort product by name(asc:A-Z, desc: Z-A).
+
+3. page[Number]: each page include 5 items.
+
 # Ruby version
 ruby '3.0.0'
 
