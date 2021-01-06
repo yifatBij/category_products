@@ -1,8 +1,10 @@
 # README
 
 Categories tree with products.
+
 The Category tree implemented with nested set model technique.
-Relation of one to many between category and product
+
+Relation of one to many between category and product.
 
 # Demo at Heroku
 https://secure-stream-01212.herokuapp.com/products
