@@ -38,6 +38,8 @@ rake db:create
 
 rake db:seed
 
+rake db:migrate
+
 # Complexity
 
 ## Time: 
